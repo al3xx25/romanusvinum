@@ -46,17 +46,67 @@ nav {
 
 .productos {
     display: flex;
-    margin: 60px;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px;
     align-items: center;
+    gap: 20px;
 }
 
 .rosas {
-    background-color: aliceblue;
-    padding: 15px;
+    transition: box-shadow 0.3s ease;
+    transition: border 0.1s;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    background-color: #fa8e8e;
+    border-radius: 7px;
 }
-.rosas img {
-    justify-content: center;
+
+.rosas:hover {
+    border: 2px solid rgba(218, 116, 116, 0.1);
+    box-shadow: 5px 5px 15px rgba(218, 116, 116, 0.3);
+    cursor: pointer;
+}
+
+.miel {
+    transition: box-shadow 0.3s ease;
+    transition: border 0.1s;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    background-color: #edc298;
+    border-radius: 7px;
+}
+
+.miel:hover {
+    border: 2px solid rgb(237, 194, 152);
+    box-shadow: 5px 5px 15px rgba(237, 194, 152, 0.3);
+    cursor: pointer;
+}
+
+.aromatico {
+    transition: box-shadow 0.3s ease;
+    transition: border 0.1s;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    background-color: #f5a689;
+    border-radius: 7px;
+}
+
+.aromatico:hover {
+    border: 2px solid rgb(245, 166, 137);
+    box-shadow: 5px 5px 15px rgba(245, 166, 137, 0.3);
+    cursor: pointer;
+}
+
+.productos-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
 }
 
 footer {
