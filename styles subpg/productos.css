@@ -104,6 +104,7 @@ nav {
 }
 
 .productos-info {
+    color: black;
     display: flex;
     flex-direction: column;
     margin-right: 10px;

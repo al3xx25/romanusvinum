@@ -46,25 +46,41 @@ nav {
 }
 
 .contacto {
-    font-weight: bold;
     display: flex;
-    flex-direction: column;
-    margin: 20px;
-    margin-left: 40px;
+    background-color: #e1e1e1;
+    align-items: center;
+    font-weight: bold;
+    margin: 1.3rem;
+    padding: 1.5rem;
+    color: black;
+    border-radius: 6px;
 }
 
 .contacto a {
+    transition: color 0.3s ease;
     text-decoration: none;
     font-weight: normal;
-    color: white;
-    padding: 0.3rem;
-    margin-left: 0.8rem;
+    color: black;
+    padding: 0.2rem;
+}
+
+.contacto a:hover {
+    color: #8867AB;
 }
 
 .galeria {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.imagenes {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 2rem;
 }
 
 footer {
