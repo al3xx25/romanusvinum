@@ -1,17 +1,53 @@
-<ul>
-            <li>
-                <span style="font-weight: bold;">Alex</span>: Marketing y publicidad
-            </li>
-            <li>
-                <span style="font-weight: bold;">David</span>: Director del cultivo de vid
-            </li>
-            <li>
-                <span style="font-weight: bold;">Marcos</span>: Relaciones publicas
-            </li>
-            <li>
-                <span style="font-weight: bold;">Álvaro</span>: Contable
-            </li>
-            <li>
-                <span style="font-weight: bold;">Marco</span>: Director de la producción
-            </li>
-        </ul>
+        <div class="back">
+            <h4>Marketing</h4>
+            <p>
+                Nuestro jefe de marketing planifica y ejecuta estrategias para promover y vender sus productos. Investiga el mercado, <br>
+                desarrolla estrategias de marca, planifica campañas publicitarias, gestiona relaciones públicas y evalúa el rendimiento. <br>
+                Su objetivo es impulsar la visibilidad y el éxito de la empresa en el competitivo mercado del vino.
+            </p>
+            
+            <a href="">Curriculum</a>
+        </div>
+
+        <div class="back">
+            <h4>Contable</h4>
+            <p>   
+                Nuestro jefe de contables supervisa y gestiona las actividades contables y financieras. Se encarga del registro y análisis de transacciones, <br>
+                elabora informes financieros, asegura el cumplimiento de las obligaciones fiscales, gestiona el presupuesto y realiza análisis financiero. Su labor proporciona <br>
+                una visión clara de la situación financiera de la empresa y apoya la toma de decisiones informadas y estratégicas.
+            </p>
+            <a href="">Curriculum</a>
+        </div>
+
+        <div class="back">
+            <h4>Director del cultivo <br> de vid</h4>
+            <p>
+                Nuestro director del cultivo de vid de una empresa de vinos supervisa y gestiona todas las actividades relacionadas con el cultivo de las vides <br>
+                utilizadas en la producción de vino. Se encarga de planificar y gestionar el viñedo, controlar la calidad de las uvas, coordinarse con otros  <br>
+                departamentos, dirigir al personal y fomentar la investigación y desarrollo en el cultivo de la vid. Su objetivo es asegurar una cosecha de uvas <br>
+                de alta calidad y garantizar el éxito en la producción de vino.
+            </p>
+            <a href="">Curriculum</a>
+        </div>
+
+        <div class="back">
+            <h4>Director de la producción <br> del vino</h4>
+            <p>
+                El Director de Producción del vino en una empresa de vinos supervisa y gestiona todas las actividades relacionadas con la producción del vino. <br>
+                Se encarga de planificar y coordinar las etapas de producción, asegurando la calidad del vino y controlando el inventario. <br>
+                Trabaja en estrecha colaboración con otros departamentos para garantizar una producción eficiente y busca constantemente mejoras en los procesos <br>
+                y la eficiencia. Su objetivo es asegurar una producción de vino de alta calidad y rentable para la empresa.
+            </p>
+            <a href="">Curriculum</a>
+        </div>
+
+        <div class="back">
+            <h4>Relaciones púbicas</h4>
+            <p>
+                El jefe de relaciones públicas de una empresa de vinos se encarga de gestionar la imagen y reputación de la empresa. <br>
+                Planifica estrategias de comunicación, organiza eventos promocionales, establece relaciones con influencers y embajadores de marca, <br>
+                gestiona crisis y supervisa la reputación online. Su objetivo principal es mantener una imagen positiva de la empresa y fortalecer <br>
+                su marca en la industria del vino.
+            </p>
+            <a href="">Curriculum</a>
+        </div>

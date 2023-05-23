@@ -53,6 +53,7 @@ nav {
 }
 
 .rosas {
+    box-shadow: 0 5px 10px #000;
     transition: box-shadow 0.3s ease;
     transition: border 0.1s;
     display: flex;
@@ -65,11 +66,12 @@ nav {
 
 .rosas:hover {
     border: 2px solid rgba(218, 116, 116, 0.1);
-    box-shadow: 5px 5px 15px rgba(218, 116, 116, 0.3);
+    box-shadow: 0 8px 15px rgba(218, 116, 116, 0.3);
     cursor: pointer;
 }
 
 .miel {
+    box-shadow: 0 5px 10px #000;
     transition: box-shadow 0.3s ease;
     transition: border 0.1s;
     display: flex;
@@ -82,11 +84,12 @@ nav {
 
 .miel:hover {
     border: 2px solid rgb(237, 194, 152);
-    box-shadow: 5px 5px 15px rgba(237, 194, 152, 0.3);
+    box-shadow: 0 8px 15px rgba(237, 194, 152, 0.3);
     cursor: pointer;
 }
 
 .aromatico {
+    box-shadow: 0 5px 10px #000;
     transition: box-shadow 0.3s ease;
     transition: border 0.1s;
     display: flex;
@@ -99,7 +102,7 @@ nav {
 
 .aromatico:hover {
     border: 2px solid rgb(245, 166, 137);
-    box-shadow: 5px 5px 15px rgba(245, 166, 137, 0.3);
+    box-shadow: 0 8px 15px rgba(245, 166, 137, 0.3);
     cursor: pointer;
 }
 
