@@ -1,0 +1,153 @@
+html {
+    font-family: 'Carlito', sans-serif;
+    background-color: #3b0c18;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #5c1427;
+    align-items: center;
+    min-height: 40px;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.logo h2 {
+    font-size: 25px;
+}
+
+nav {
+    margin-right: 1.4rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+    padding: 1rem;
+}
+
+.nav-link:hover {
+    color: #c1526f;
+}
+
+.general {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 50px;
+}
+
+.general img {
+    box-shadow: 0 5px 10px #000;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info p {
+    color: #fff;
+    font-size: 22px;
+}
+
+.info h2 {
+    border: solid 2px #911e32;
+    border-radius: 5px;
+    color: #7c1623;
+    font-size: 40px;
+    padding: 1.3rem;
+}
+
+.info a {
+    transition: text-decoration ,3s ease;
+    text-decoration: underline;
+    max-width: 128px;
+    color: #c1526f;
+}
+
+.info a:hover {
+    text-decoration: none;
+}
+
+.elaboracion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.elaboracion h2 {
+    color: #fff;
+    font-size: 35px;
+    padding-top: 30px;
+    border-top: solid 2px #c1526f;
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    background-color: #5c1427;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    flex-wrap: wrap;
+}
+
+footer a{
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #c1526f;
+}
+
+footer p {
+    color: white;
+    margin-right: 2.4rem;
+}
+
+.derechos {
+    color: #666
+}
+
+.nav-footer-link {
+    padding: 0.7rem;
+}
+
+@media (max-width: 870px){
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding-bottom: 1.3rem;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer p {
+        margin: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .nav-footer {
+        margin-top: 0.4rem;
+    }
+}
