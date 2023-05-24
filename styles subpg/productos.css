@@ -46,10 +46,14 @@ nav {
 
 .productos {
     display: flex;
-    flex-direction: column;
-    margin: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
+    margin: 17px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .rosas {
@@ -103,6 +107,42 @@ nav {
 .aromatico:hover {
     border: 2px solid rgb(245, 166, 137);
     box-shadow: 0 8px 15px rgba(245, 166, 137, 0.3);
+    cursor: pointer;
+}
+
+.passum {
+    box-shadow: 0 5px 10px #000;
+    transition: box-shadow 0.3s ease;
+    transition: border 0.1s;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    background-color: #edc667;
+    border-radius: 7px;
+}
+
+.passum:hover {
+    border: 2px solid #edc667;
+    box-shadow: 0 8px 15px rgba(237, 198, 103, .3);
+    cursor: pointer;
+}
+
+.vinamera {
+    box-shadow: 0 5px 10px #000;
+    transition: box-shadow 0.3s ease;
+    transition: border 0.1s;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    background-color: #8be9f2;
+    border-radius: 7px;
+}
+
+.vinamera:hover {
+    border: 2px solid #8be9f2;
+    box-shadow: 0 8px 15px rgba(139, 233, 242, .3);
     cursor: pointer;
 }
 

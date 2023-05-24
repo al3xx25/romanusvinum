@@ -1,6 +1,8 @@
 html {
     font-family: 'Carlito', sans-serif;
     background-color: #3b0c18;
+    position: relative;
+    min-height: 1150px;
 }
 
 body {
@@ -72,17 +74,44 @@ nav {
 
 .top-news {
     text-align: center;
-    margin-top: 25px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-news h2 {
+    padding-top: 40px;
+    border-top: #c1526f solid 2px;
     color: white;
 }
+
+.catacolab {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.catacolab a {
+    box-shadow: 0 5px 10px #000;
+}
+
+.catacolab img {
+    transition: width .5 ease;
+}
+
+.catacolab img:hover {
+    width: 310px;
+    box-shadow: 0 5px 15px #c1526f;
+}
+
 footer {
     display: flex;
     background-color: #5c1427;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 97.95%;
     padding: 1.2rem;
     flex-wrap: wrap;
 }
